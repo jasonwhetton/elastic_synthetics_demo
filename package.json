@@ -1,7 +1,7 @@
 {
   "name": "ellos_synthetics_2",
   "version": "1.0.0",
-  "description": "",
+  "description": "Browse the directory structure here to see an example skeleton of an [Elastic Synthetics](https://www.elastic.co/observability/synthetic-monitoring) project. Make sure to [read the docs](https://www.elastic.co/guide/en/observability/current/monitor-uptime-synthetics.html) as well if you're unfamiliar with Elastic Synthetics.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,5 +12,13 @@
   "license": "ISC",
   "dependencies": {
     "@elastic/synthetics": "^1.0.0-beta.40"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonwhetton/elastic_synthetics_demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jasonwhetton/elastic_synthetics_demo/issues"
+  },
+  "homepage": "https://github.com/jasonwhetton/elastic_synthetics_demo#readme"
 }
