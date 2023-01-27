@@ -1,0 +1,15 @@
+heartbeat.monitors:
+- type: http
+  name: Homepage WWW
+  id: homepage-www
+  enabled: true
+  urls: "http://www.ellos.se"
+  schedule: '@every 3m'
+  timeout: 16s
+- type: http
+  name: Homepage
+  id: homepage
+  enabled: true
+  urls: "http://ellos.se"
+  schedule: '@every 3m'
+  timeout: 16s
